@@ -1,0 +1,18 @@
+FileStream Class
+
+Exposes a Stream around a file, supporting both synchronous and asynchronous
+read and write operations.
+For a list of all members of this type, see FileStream Members.
+Thread Safety
+Any public static (Shared in Visual Basic) members of this type are thread
+safe. Any instance members are not guaranteed to be thread safe.
+Remarks
+Use the FileStream class to read from, write to, open, and close
+files on a file system, as well as to manipulate other file-related
+operating system handles such as pipes, standard input, amd standard
+output. You can specify read and write operations to be either
+synchronous or asynchronous. FileStream buffers input and output
+for better performance.
+FileStream objects support random access to files using the Seek method.
+Seek allows the read/write position to be moved to any position within
+the file. This is done with byte offset reference point parameters.
